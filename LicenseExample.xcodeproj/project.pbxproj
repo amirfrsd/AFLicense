@@ -14,6 +14,10 @@
 		CDCB444F1CAAA82D0041F80F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCB444D1CAAA82D0041F80F /* LaunchScreen.storyboard */; };
 		CDCB445A1CAAA82F0041F80F /* LicenseExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB44591CAAA82F0041F80F /* LicenseExampleTests.swift */; };
 		CDCB44651CAAA8310041F80F /* LicenseExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB44641CAAA8310041F80F /* LicenseExampleUITests.swift */; };
+		CDCB44731CAAA83D0041F80F /* KeychainSwiftDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB44721CAAA83D0041F80F /* KeychainSwiftDistrib.swift */; };
+		CDCB44751CAAA8CA0041F80F /* CheckLicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB44741CAAA8CA0041F80F /* CheckLicenseViewController.swift */; };
+		CDCB44771CAAA8EE0041F80F /* LicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB44761CAAA8EE0041F80F /* LicenseViewController.swift */; };
+		CDCB44791CAAAFC00041F80F /* ReadmeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB44781CAAAFC00041F80F /* ReadmeFirst.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		CDCB44601CAAA82F0041F80F /* LicenseExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LicenseExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCB44641CAAA8310041F80F /* LicenseExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseExampleUITests.swift; sourceTree = "<group>"; };
 		CDCB44661CAAA8310041F80F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCB44721CAAA83D0041F80F /* KeychainSwiftDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainSwiftDistrib.swift; sourceTree = "<group>"; };
+		CDCB44741CAAA8CA0041F80F /* CheckLicenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckLicenseViewController.swift; sourceTree = "<group>"; };
+		CDCB44761CAAA8EE0041F80F /* LicenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseViewController.swift; sourceTree = "<group>"; };
+		CDCB44781CAAAFC00041F80F /* ReadmeFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadmeFirst.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,12 @@
 		CDCB44431CAAA82D0041F80F /* LicenseExample */ = {
 			isa = PBXGroup;
 			children = (
+				CDCB44721CAAA83D0041F80F /* KeychainSwiftDistrib.swift */,
 				CDCB44441CAAA82D0041F80F /* AppDelegate.swift */,
 				CDCB44461CAAA82D0041F80F /* ViewController.swift */,
+				CDCB44741CAAA8CA0041F80F /* CheckLicenseViewController.swift */,
+				CDCB44761CAAA8EE0041F80F /* LicenseViewController.swift */,
+				CDCB44781CAAAFC00041F80F /* ReadmeFirst.swift */,
 				CDCB44481CAAA82D0041F80F /* Main.storyboard */,
 				CDCB444B1CAAA82D0041F80F /* Assets.xcassets */,
 				CDCB444D1CAAA82D0041F80F /* LaunchScreen.storyboard */,
@@ -257,7 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDCB44471CAAA82D0041F80F /* ViewController.swift in Sources */,
+				CDCB44771CAAA8EE0041F80F /* LicenseViewController.swift in Sources */,
 				CDCB44451CAAA82D0041F80F /* AppDelegate.swift in Sources */,
+				CDCB44751CAAA8CA0041F80F /* CheckLicenseViewController.swift in Sources */,
+				CDCB44791CAAAFC00041F80F /* ReadmeFirst.swift in Sources */,
+				CDCB44731CAAA83D0041F80F /* KeychainSwiftDistrib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
